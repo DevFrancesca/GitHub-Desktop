@@ -1,0 +1,23 @@
+.btn{
+    width: 100%;
+    height: 90px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    padding: 16px 18px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 3px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 360ms;
+    transform: scale(1);
+}
+.btn button :hover {
+    transform: scale(1.2);
+    background: white;
+}
